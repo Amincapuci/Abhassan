@@ -1,0 +1,118 @@
+import { Service } from '../types';
+
+export const services: Service[] = [
+  {
+    id: 'botox',
+    name: {
+      de: 'Botox Behandlung',
+      en: 'Botox Treatment',
+      ar: 'علاج البوتوكس',
+      tr: 'Botoks Tedavisi',
+    },
+    description: {
+      de: 'Reduzierung von Falten und Linien für ein jugendlicheres Aussehen',
+      en: 'Reduction of wrinkles and lines for a more youthful appearance',
+      ar: 'تقليل التجاعيد والخطوط للحصول على مظهر أكثر شبابًا',
+      tr: 'Daha genç bir görünüm için kırışıklık ve çizgilerin azaltılması',
+    },
+    price: 'ab 150€',
+    duration: '30 min',
+    image: 'https://images.pexels.com/photos/3985360/pexels-photo-3985360.jpeg',
+    category: 'injectable',
+  },
+  {
+    id: 'fillers',
+    name: {
+      de: 'Hyaluron Filler',
+      en: 'Hyaluronic Fillers',
+      ar: 'حشوات الهيالورونيك',
+      tr: 'Hyaluronik Dolgu',
+    },
+    description: {
+      de: 'Volumenaufbau und Konturierung für natürliche Ergebnisse',
+      en: 'Volume enhancement and contouring for natural results',
+      ar: 'تعزيز الحجم والتحديد للحصول على نتائج طبيعية',
+      tr: 'Doğal sonuçlar için hacim artırma ve konturlama',
+    },
+    price: 'ab 200€',
+    duration: '45 min',
+    image: 'https://images.pexels.com/photos/3985363/pexels-photo-3985363.jpeg',
+    category: 'injectable',
+  },
+  {
+    id: 'laser-hair',
+    name: {
+      de: 'Laser Haarentfernung',
+      en: 'Laser Hair Removal',
+      ar: 'إزالة الشعر بالليزر',
+      tr: 'Lazer Epilasyon',
+    },
+    description: {
+      de: 'Dauerhafte Haarentfernung mit modernster Lasertechnologie',
+      en: 'Permanent hair removal with state-of-the-art laser technology',
+      ar: 'إزالة الشعر الدائمة بأحدث تقنيات الليزر',
+      tr: 'En son lazer teknolojisi ile kalıcı tüy alma',
+    },
+    price: 'ab 80€',
+    duration: '60 min',
+    image: 'https://images.pexels.com/photos/3985361/pexels-photo-3985361.jpeg',
+    category: 'laser',
+  },
+  {
+    id: 'skin-rejuvenation',
+    name: {
+      de: 'Hautverjüngung',
+      en: 'Skin Rejuvenation',
+      ar: 'تجديد البشرة',
+      tr: 'Cilt Gençleştirme',
+    },
+    description: {
+      de: 'Verbesserung der Hautstruktur und des Hautbildes',
+      en: 'Improvement of skin texture and appearance',
+      ar: 'تحسين ملمس البشرة ومظهرها',
+      tr: 'Cilt dokusunun ve görünümünün iyileştirilmesi',
+    },
+    price: 'ab 120€',
+    duration: '90 min',
+    image: 'https://images.pexels.com/photos/3985364/pexels-photo-3985364.jpeg',
+    category: 'skincare',
+  },
+  {
+    id: 'microneedling',
+    name: {
+      de: 'Microneedling',
+      en: 'Microneedling',
+      ar: 'الوخز بالإبر الدقيقة',
+      tr: 'Mikro İğneleme',
+    },
+    description: {
+      de: 'Stimulation der Kollagenproduktion für straffere Haut',
+      en: 'Stimulation of collagen production for firmer skin',
+      ar: 'تحفيز إنتاج الكولاجين للحصول على بشرة أكثر تماسكًا',
+      tr: 'Daha sıkı cilt için kolajen üretiminin uyarılması',
+    },
+    price: 'ab 100€',
+    duration: '60 min',
+    image: 'https://images.pexels.com/photos/3985365/pexels-photo-3985365.jpeg',
+    category: 'skincare',
+  },
+  {
+    id: 'chemical-peel',
+    name: {
+      de: 'Chemisches Peeling',
+      en: 'Chemical Peel',
+      ar: 'التقشير الكيميائي',
+      tr: 'Kimyasal Peeling',
+    },
+    description: {
+      de: 'Tiefenreinigung und Erneuerung der Hautoberfläche',
+      en: 'Deep cleansing and renewal of skin surface',
+      ar: 'تنظيف عميق وتجديد سطح البشرة',
+      tr: 'Cilt yüzeyinin derin temizliği ve yenilenmesi',
+    },
+    price: 'ab 90€',
+    duration: '45 min',
+    image: 'https://images.pexels.com/photos/3985366/pexels-photo-3985366.jpeg',
+    category: 'skincare',
+  },
+];
